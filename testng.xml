@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="api-basic-java" verbose="1">
+    <test name="Feature files" preserve-order="true">
+        <parameter name="cucumber.features" value="classpath:com/bartonsoft/apibasicjava/features"/>
+        <parameter name="cucumber.glue" value="com.bartonsoft.apibasicjava.steps"/>
+        <classes>
+            <class name="com.bartonsoft.apibasicjava.common.RunCucumberTest"/>
+        </classes>
+    </test>
+</suite>
