@@ -1,8 +1,13 @@
 # Getting Started Instructions - java
 
-1. you will need openJDK installed (tested with v17) - i used Chocolatey package manager for Windows (https://chocolatey.org/install) - for mac users you can use Brew (https://brew.sh/) - and for linux users you have a package manager of your choice to use :) 
+1. you will need openJDK installed (tested with v20) 
 1. you will also need to install Apache Maven - use a package manager of your choice to do this - check it's installed by running `mvn -version` - if you get a response from maven (instead of not found), you're good to go.
-1. having cloned the repository from GitHub, running the tests is as straightforward as running `mvn test` in the project root 
+1. having cloned the repository from GitHub and installed the pre-req's, you can run the tests via `mvn test` in the project root 
+
+> **Tip : use a package manager to install software**
+> i used Chocolatey package manager for Windows to install this (https://chocolatey.org/install)
+> for mac users you can use Brew (https://brew.sh/)
+> for linux users you will already have a package manager of your choice to use 
 
 # High-Level Design
 
